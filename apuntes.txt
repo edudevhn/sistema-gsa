@@ -1,0 +1,170 @@
+/*COTIZACION*/
+fecha de cotizacion debe de ser automaitca, con opcion a editar
+
+
+Mercancia- Obligatorio-agregar select ---- LISTO
+Incoterms- Obligatorio-agregar select ---- LISTO
+Servicio- Obligatorio-agregar select ---- LISTO
+Lugar Embarque- Obligatorio, que se pueda ir creando el registro cuando no exista en la tabla de lugar de embarque ---- LISTO
+Lugar de entrega cambiar a Lugar de desemarque usar la misma tabla de Lugar Embarque ---- LISTO
+Termino de Pago- Obligatorio-agregar select ---- LISTO
+Modalidad de transporte-Modalidad de transporte ---- LISTO
+
+
+
+comentarios, la cotizacion debe tener opcion para pasar a embarque, esto hara que con los datos de cotizacion se pueda generar una proforma ---LISTO
+
+
+cuando se registre un cliente se debe seleccionar si tiene registro exonerado y agregar la fecha de vencimiento del registro, vence anualmente ---- LISTO
+
+
+
+
+al crear una factura que sea la opcion para crearla desde el embarque, en el caso que sea factura de cero, que se llenen los datos y genere su numero de embarque --LISTO
+si la factura es apartir de un embarque, que se seleccione este y llente los datos de la factura con los datos que se obtengan del embarque, --listo
+
+mismo proceso para los demas documentos contables
+
+
+
+poder crear la opcion de que un embarque se pueda tener sub embaruqes, para los casos que se deban generar varias facturas para diferentes clientes, de un embarque principal --LISTO
+
+
+
+
+
+/*PROFORMA*/
+el numero de proforma seria el mismo Numero de Embarque:
+
+Numero de Embarque:, se genera automaticmante con el formato siguiente GSALANIO-MES-CORRELATIVO, correlativo se cuenta con los que se han generado en el mes actual ---LISTO
+
+cotizacion
+proforma
+facturan
+nota de debito
+nota de credito
+cuentas por pagar
+estados de cuenta-
+liquidacion de embarque
+recibos
+
+
+registro de pagos
+
+
+15/07/2023
+aumentar el tamaño del telefono  ---LISTO
+DNI quitarlo en registro de personas ---LISTO
+
+en persona se debe identificar entre  ENTIDAD LOCAL o ENTIDAD EXTRANJERO, si es extranjero los datos pueden quedar vacios ---LISTO
+
+embarcador y consignatario que sean datos ingreados de forma manual --listo
+
+AL CREAR UNA MERCACNCIA QUE SE INGRESE EL REGISTRO DE PARTIDA ARANCELARIA --Listo
+
+Agregar Sub Embarques --- Listo
+cambiar PASAR EMBARQUE por CREAR EMBARQUE  --listo
+
+
+
+
+nomero referencia no va en Embarque --listo
+Cambiar Peso por Detalle de Carga --listo
+cambiar numero de propuesta pro numero de Embarque en el modulo de embarque --listo
+separar aduanas de POD Y POL ---LISTO
+agregar equipo en Embarque --listo
+Registro SAG, EXONERADO que no sea obligatorio en embarque, que se pueda alimentar desde proforma o desde factura --listo
+
+un embarque puede tener mas de una cotización --LISTO
+LLEVAR UN HISTORIAL DE MODIFICACIONES EN LOS DOCUMENTOS, que valor se modifico
+
+en pagos de factura debe ser SALDO
+AGREGAR TABLA DE CUENTAS BANCARIAS --LISTO
+
+agregar opcion de marcar cotización como PERDIDA
+agregar ingresos de embarque, gastos embarque, creditos(nota de credito)
+CONSULTAR SI TIENE FORMATOS PENDIENTES UN MIERCOLES ANTES DE REUNION
+
+
+-en registro de servicio Nombre cambiar por Concepto de Servicio --listo
+Cuente cambiar Cuenta de Gastos -listo
+
+cambiar Exonerado por EXENTO para identificar NB --listo
+
+
+agregar unidad de medida en proforma que sea editable --listo
+
+
+validar si un formato toma mas de 2 paginas, inclir pie de pagina con # pag, totales en la ultima pagina
+
+
+
+Modulo para Costos de Embarque
+
+
+EN RECIBO AGREGAR OPCION PARA ENLASAR A QUE CUANTA BANCARIA SE DEPOSITA EL FONDO: FONDO BANCARIO ---listo
+
+AGREGAR UNIDAD D EMEDIDA EN FACTURAS Y PROFORMAS,COTIZACIONES REVISAR ---listo
+
+quitar precio estimado de un servicio -listo
+
+
+cuando se cree el cliente se debe ingresar el plazo o termino de pago --listo
+
+
+
+en cxc y cxp una vez los saldos esten en cero, no debe de aparecer en el reporte de EC
+
+
+agregar opcion de poder generar pdf en diferente moneda -- listo
+
+arreglar tamaños de cuadros en pie de formatos, que no tomen tanto espacio,( ver formatos de referencia) --listo
+
+
+
+
+
+en pagos agregar un seleccion en metodo de pago ---listo
+-cheque  
+-transferencia BANCARIA
+-efectivo
+-deposito
+
+eliminar numero cheque y utilizar  Referencia de Pago ---listo
+
+
+en el recibo Pago Recibido en la lista de item es la suma de todos los pagos previos
+
+Valor Facturado cambiar a Saldo Actual= valor factura - pagos aplicados
+
+Pago Recibido: pago recibido a fecha o pago actual
+Valor (%) Retencion: ingreso manual
+cambiar Total Pago Aplicado: por saldo = valor factura- total pagos recibidos - pago actual - valor retencion
+
+para la taza de convercion se utiliza el valor con el que se facturo el documento fiscal
+
+
+Constancia de Rentencion No.: se puede modificar el formato 
+
+en pago agregar opcion de pagador, para seleccionar otra persona que realiza el pago y este debe ir en Recibimos de: ---listo
+
+
+revisar archivo FORMATO REPORTE MENSUAL DE VENTAS (ISV) - GSA LOGISTICA
+revisar archivo GSAL - LIQUIDACION MENSUAL DE EMBARQUES 2023
+
+
+
+cotizacion, agregar opcion para seleccionar crear embarque o subempartque y poder seleccionar el embarque
+
+
+Al registrar un costo que calcule el isv automatico, pero que se pueda modificar
+
+
+para cuestiones de prueba adptarlo a GSA logistica ---listo
+
+
+solicitar registro cai y actualizacion de cuentas BANCARIAS
+
+
+
+agregar validaciones cai unico en rango de facturacion
